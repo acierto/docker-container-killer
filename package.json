@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "name": "docker-container-killer",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:acierto/tuatara.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-register": "6.26.0"
+  },
+  "dependencies": {}
+}
